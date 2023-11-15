@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp</title>
+    <!-- Style Files -->
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font File -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Lalezar&family=Open+Sans:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="todo-container">
+        <form id="add-form">
+            <input type="text" placeholder="New TODO......." id="to-do-input">
+            <input type="submit" value="ADD+" id="todo-btn">
+        </form>
+        <div class="boxses-container">
+            <div class="box" id="to-do">
+                <h3 class="heading">TODO</h3>
+                <p class="task" draggable="true">Playing PlayStation</p>
+                <p class="task" draggable="true">Playing Football</p>
+                <p class="task" draggable="true">Playing Pubg</p>
+            </div>
+            <div class="box" id="done">
+                <h3 class="heading">DONE</h3>
+                <p class="task" draggable="true">Watching A Movie</p>
+            </div>
+            <div class="box" id="doing">
+                <h3 class="heading">DOING</h3>
+                <p class="task" draggable="true">Stadying Physics</p>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript File -->
+    <script src="main.js"></script>
+</body>
+
+</html>
